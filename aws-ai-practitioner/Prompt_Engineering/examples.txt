@@ -1,0 +1,6 @@
+Instructions: I am preparing for the AWS AI Practitioner exam. Generate a study plan that I can follow to successfully obtain this certification. This should include topics that are covered by the exam that I will be expected to know. There should also be hands on work that I can perform to help fully understand the topics. There should be a way that I can test my knowledge first to ensure that I am ready to take the exam.
+Context: I work as a cloud architect/engineer for a consulting company. I have 6 years experience working in aws. I have obtained the AWS SA Pro, AWS Developer Pro, Security Specialty and Network Specialty certifications. I do not have experience in the AWS AI/ML products and want to expand my knowledge and understanding of AWS AI/ML.
+Input Data: A 14 Day study plan
+Output Indicator: This should be a detailed study plan outlining what I should focus on each day. It should provide areas of study and time spent studying these topics. It should provide links to these areas of study.
+
+Negative Prompting: 
