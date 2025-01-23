@@ -1,0 +1,3 @@
+## Understand approaches to evaluate foundation model performance (for example, human evaluation, benchmark datasets).
+## Identify relevant metrics to assess foundation model performance (for example, Recall-Oriented Understudy for Gisting Evaluation [ROUGE], Bilingual Evaluation Understudy [BLEU], BERTScore).
+## Determine whether a foundation model effectively meets business objectives (for example, productivity, user engagement, task engineering).

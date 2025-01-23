@@ -1,0 +1,3 @@
+## Describe the key elements of training a foundation model (for example, pre-training, fine-tuning, continuous pre-training).
+## Define methods for fine-tuning a foundation model (for example, instruction tuning, adapting models for specific domains, transfer learning, continuous pre-training).
+## Describe how to prepare data to fine-tune a foundation model (for example, data curation, governance, size, labeling, representativeness, reinforcement learning from human feedback [RLHF]).
