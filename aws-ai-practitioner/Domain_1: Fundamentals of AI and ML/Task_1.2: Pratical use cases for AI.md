@@ -1,5 +1,5 @@
 ## Recognize applications where AI/ML can provide value (for example, assist human decision making, solution scalability, automation).
-**Assist Human Decision-Making: AI/ML models analyze large datasets, identify patterns, and provide actionable insights, enhancing decision-making in fields like healthcare, finance, and supply chain management.
+**Assist Human Decision-Making**: AI/ML models analyze large datasets, identify patterns, and provide actionable insights, enhancing decision-making in fields like healthcare, finance, and supply chain management.
 
 **Solution Scalability**: ML algorithms enable businesses to scale solutions rapidly, such as processing vast amounts of data or managing dynamic customer interactions in real-time.
 
