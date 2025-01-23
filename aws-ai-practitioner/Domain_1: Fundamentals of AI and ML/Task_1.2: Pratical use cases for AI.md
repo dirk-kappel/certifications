@@ -1,13 +1,70 @@
 ## Recognize applications where AI/ML can provide value (for example, assist human decision making, solution scalability, automation).
+**Assist Human Decision-Making: AI/ML models analyze large datasets, identify patterns, and provide actionable insights, enhancing decision-making in fields like healthcare, finance, and supply chain management.
 
+**Solution Scalability**: ML algorithms enable businesses to scale solutions rapidly, such as processing vast amounts of data or managing dynamic customer interactions in real-time.
+
+**Automation**: AI/ML automates repetitive and time-intensive tasks, such as data entry, quality control, and customer service, improving efficiency and reducing errors.
+
+**Predictive Analytics**: Forecasting trends, behaviors, or outcomes based on historical data, useful in marketing, demand planning, and risk management.
+
+**Personalization**: Tailoring products, content, or services to individual user preferences, such as in e-commerce, streaming platforms, and online learning.
+
+**Operational Efficiency**: Optimizing resource allocation, maintenance schedules, and logistics through AI-driven recommendations.
+
+**Enhanced User Experience**: Improving interactions through AI-powered features like chatbots, voice recognition, and recommendation engines.
 
 ## Determine when AI/ML solutions are not appropriate (for example, cost-benefit analyses, situations when a specific outcome is needed instead of a prediction).
-
+You do not need ML if you can determine a target value using simple rules, computations, or predetermined steps. You can program the steps without needing any data-driven learning. 
 
 ## Select the appropriate ML techniques for specific use cases (for example, regression, classification, clustering).
+**Classification** is a supervised learning technique used to assign labels or categories to new, unseen data instances based on a trained model. The model is trained on a labeled dataset, where each instance is already assigned to a known class or category. The goal of classification is to learn patterns from the training data and use them to predict the class or category for new unlabeled data instances.  
+Use cases include the following:
+- Fraud detection
+- Image classification
+- Customer retention
+- Diagnostics
 
+**Regression** is a supervised learning technique used for predicting continuous or numerical values based on one or more input variable. It is used to model the relationship between a dependent variable (the value to be predicted) and one or more independent variables (the features or inputs used for prediction).  
+Use cases include the following:
+- Advertising popularity prediction
+- Weather forecasting
+- Market forecasting
+- Estimating life expectancy
+- Population growth prediction
+
+**Clustering**: A common subcategory of unsupervised learning is clustering. This kind of algorithm groups data into different clusters based on similar features or distances between the data point to better understand the attributes of a specific cluster.  
+For example, by analyzing customer purchasing habits, an unsupervised algorithm can identify a company as being large or small.  
+Use cases include the following: 
+- Customer segmentation
+- Targeted marketing
+- Recommended systems
+
+**Dimensionality reduction** is an unsupervised learning technique used to reduce the number of features or dimensions in a dataset while preserving the most important information or patterns.  
+Use cases include the following:
+- Big data visualization
+- Meaningful compression
+- Structure discovery
+- Feature elicitation
 
 ## Identify examples of real-world AI applications (for example, computer vision, NLP, speech recognition, recommendation systems, fraud detection, forecasting).
+**Computer vision**:
+- Autonomous Driving to make self-driving cars safer and more reliable.
+- Healthcare or Medical Imaging can improve the accuracy and speed of medical diagnoses.
+- Public Safety and Home Security  can swiftly identify unlawful entries or persons of interest, which fosters safer communities and works as a crime deterrent. 
+
+**Natural language processing**:
+- Insurance companies can use NLP to extract policy numbers, expiration dates, and other personal information.
+- Telecommunication companies use NLP to analyze customer text messages and suggest personalized recommendations.
+- In the education industry, students use Q&A chatbots to address questions.
+
+**Intelligent document processing**:
+- Financial services use IDP to extract important information from mortgage applications to accelerate customer response time. It also helps with the underwriting process by identifying incomplete loan packages, tax forms, pay stubs, and other missing data.
+- IDP, along with other applications such as optical character recognition (OCR) and NLP, helps eliminate the manual effort of processing documents such as contractual documents, agreements, court filings, and legal dockets.
+- Using IDP in healthcare can help expedite business quickly and accurately by processing various document types, such as claims and doctor’s notes. 
+
+**Fraud detection**:
+- Financial services use fraud detection for identity verification, payment fraud detection, transaction surveillance, and anti-money laundering (AML) sanctions.
+- Fraud detection systems in the retail industry protect businesses from financial losses, safeguard customer accounts and data, and maintain trust and confidence in online transactions.
 
 
 ## Explain the capabilities of AWS managed AI/ML services (for example, SageMaker, Amazon Transcribe, Amazon Translate, Amazon Comprehend, Amazon Lex, Amazon Polly).
