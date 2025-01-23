@@ -7,6 +7,10 @@
 
 **Amazon Q Developer**: Designed to improve developer productivity, Amazon Q Developer provides ML–powered code recommendations to accelerate development of C#, Java, JavaScript, Python, and TypeScript applications. The service integrates with multiple integrated development environments (IDEs) and helps developers write code faster by generating entire functions and logical blocks of code—often consisting of more than 10–15 lines of code.
 
+**PartyRock**:
+
+**Amazon Bedrock Playground**:
+
 ## Describe the advantages of using AWS generative AI services to build applications (for example, accessibility, lower barrier to entry, efficiency, cost-effectiveness, speed to market, ability to meet business objectives).
 **Accelerated development and deployment**:
 - Amazon Q Developer (previously Amazon CodeWhisperer) can generate code in real time. Amazon ran a productivity challenge during the preview of CodeWhisperer. Participants who used the service were 27 percent more likely to complete tasks successfully and did so an average of 57 percent faster than those who did not use CodeWhisperer.
