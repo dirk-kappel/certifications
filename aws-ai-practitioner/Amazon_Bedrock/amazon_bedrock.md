@@ -46,15 +46,18 @@ Unified API
 - Scores are calculated automatically
 
 **ROUGE** : Recall-Oriented Understudy of Gisting Evaluation
-  - Evaluating automatic summarization and machine translation systems
-  - ROUGE-N : Measure the number of matching n-grams between reference and generated text
-  - ROUGE-L : Longest common subsequence between reference and generated text
+- Evaluating automatic summarization and machine translation systems
+- ROUGE-N : Measure the number of matching n-grams between reference and generated text
+- ROUGE-L : Longest common subsequence between reference and generated text
+
 **BLEU** : Bilingual Evaluation Understudy
-  - Evaluated the quality of generated text, especially for translations
-  - Considers both precision and penalizes too much brevity
+- Evaluated the quality of generated text, especially for translations
+- Considers both precision and penalizes too much brevity
+
 **BERTScore** :
-  - Semantic similarity between generated text
-  - Uses pre-trained BERT models (Bidirectional Encoder Representations from Transformers) to compare the contextualized embeddings of both texts and computes the cosine similarity between them.
+- Semantic similarity between generated text
+- Uses pre-trained BERT models (Bidirectional Encoder Representations from Transformers) to compare the contextualized embeddings of both texts and computes the cosine similarity between them.
+
 **Perplexity** : How well the model predicts the next token (lower is better)
 
 Business Metrics to Evaluate a Model On
