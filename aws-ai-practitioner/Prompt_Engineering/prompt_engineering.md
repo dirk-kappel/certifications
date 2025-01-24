@@ -41,7 +41,7 @@ Not Impacted by:
 - Top P, Top K, Temperature
 
 ### Zero-Shot Prompting
-Present a task to the model without providing examples ore explicit training for that specific task.
+Present a task to the model without providing examples or explicit training for that specific task.
 - Rely fully on the model's general knowledge.
 - The larger and more capable FM, the more likely you'll get good results.
 
