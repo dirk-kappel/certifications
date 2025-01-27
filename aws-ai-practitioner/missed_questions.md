@@ -124,3 +124,36 @@ The following hyperparameters are common among models:
 **Fine-tuning**
 - Fine-tuning is the process of taking a pre-trained FM, such as Llama 2, and further training it on a downstream task with a dataset specific to that task. The pre-trained model provides general linguistic knowledge, and fine-tuning allows it to specialize and improve performance on a particular task like text classification, question answering, or text generation. With fine-tuning, you provide labeled datasets—which are annotated with additional context—to train the model on specific tasks. You can then adapt the model parameters for the specific task based on your business context.
 - You can implement fine-tuning on FMs with Amazon SageMaker JumpStart and Amazon Bedrock. 
+
+**Amazon Q in Connect**
+- Amazon Connect is the contact center service from AWS. Amazon Q helps customer service agents provide better customer service. Amazon Q in Connect uses real-time conversation with the customer along with relevant company content to automatically recommend what to say or what actions an agent should take to better assist customers.
+
+**Amazon SageMaker Feature Store**
+- Amazon SageMaker Feature Store is a fully managed, purpose-built repository to store, share, and manage features for machine learning (ML) models. Features are inputs to ML models used during training and inference. For example, in an application that recommends a music playlist, features could include song ratings, listening duration, and listener demographics.
+- You can ingest data into SageMaker Feature Store from a variety of sources, such as application and service logs, clickstreams, sensors, and tabular data from Amazon Simple Storage Service (Amazon S3), Amazon Redshift, AWS Lake Formation, Snowflake, and Databricks Delta Lake.
+
+**K-Means (Clustering Algorithm)**
+- K-Means is an unsupervised learning algorithm used for clustering data points into groups (clusters) based on their similarity.
+
+**K-Nearest Neighbor (KNN, Classification/Regression Algorithm)**
+- KNN is a supervised learning algorithm used for classification and regression tasks. It predicts the output for a given data point based on its nearest neighbors in the training dataset.
+
+**Convolutional Neural Networks (CNNs)**
+- Convolutional Neural Networks (CNNs) are specifically designed for processing and classifying image data. They use convolutional layers to automatically and adaptively learn spatial hierarchies of features from input images, making them highly effective for tasks such as image recognition and classification.
+
+**Recurrent Neural Networks (RNNs)** 
+- Recurrent Neural Networks (RNNs) are typically used for sequence data, such as time series or natural language processing tasks. RNNs are not the best fit for image classification.
+
+### Feature engineering
+- A process to select and transform variables when creating a predictive model using machine learning or statistical modeling. Feature engineering typically includes feature creation, feature transformation, feature extraction, and feature selection. With deep learning, feature engineering is automated as part of the algorithm learning.
+
+**Feature creation** refers to the creation of new features from existing data to help with better predictions. Examples of feature creation include: one-hot-encoding, binning, splitting, and calculated features.
+
+**Feature transformation and imputation** include steps for replacing missing features or features that are not valid. Some techniques include: forming Cartesian products of features, non-linear transformations (such as binning numeric variables into categories), and creating domain-specific features.
+
+**Feature extraction** involves reducing the amount of data to be processed using dimensionality reduction techniques. These techniques include: Principal Components Analysis (PCA), Independent Component Analysis (ICA), and Linear Discriminant Analysis (LDA). This reduces the amount of memory and computing power required, while still accurately maintaining original data characteristics.
+
+**Feature selection** is the process of selecting a subset of extracted features. This is the subset that is relevant and contributes to minimizing the error rate of a trained model. Feature importance score and correlation matrix can be factors in selecting the most relevant features for model training.
+
+**Dimensionality reduction**
+- Dimensionality reduction is an unsupervised learning technique that reduces the number of features in a dataset. It’s often used to preprocess data for other machine learning functions and reduce complexity and overheads. For example, it may blur out or crop background features in an image recognition application.
